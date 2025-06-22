@@ -1,0 +1,102 @@
+/* Google Fonts devem ser carregadas no HTML */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  margin: 0;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #023e8a;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #023e8a;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #0077b6;
+  margin-top: 20px;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 30px 0;
+  border-left: 5px solid #0077b6;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #f8f8f8;
+}
+
+th {
+  background-color: #0077b6;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+blockquote {
+  font-style: italic;
+  background: #f1f1f1;
+  border-left: 4px solid #0077b6;
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background-color: #eeeeee;
+  margin-top: 40px;
+}
+
+/* Estilo do botão fixo de email */
+.email-float {
+  position: fixed;
+  width: 140px;
+  bottom: 80px;
+  right: 30px;
+  background-color: #023e8a;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.email-float:hover {
+  background-color: #011f4b;
+}
